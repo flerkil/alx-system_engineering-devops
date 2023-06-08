@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u=rwx$'g=rx\no=wx' hello
+chmod u=rwx hello && chmod g=rx hello && chmod o=wx hello && ls -l --time-style=+"%d %b %y %H:%M" hello
